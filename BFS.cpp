@@ -65,7 +65,7 @@ void Graph::BFS(int s)
 int main()
 {
     fstream gr;
-    gr.open("/home/iryna/workspace/BFS/graph.txt");
+    gr.open("graph.txt");
     int v, e;
     gr >> v;
     gr >> e;
