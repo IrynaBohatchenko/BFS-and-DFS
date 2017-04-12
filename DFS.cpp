@@ -78,7 +78,7 @@ void Graph::DFS(int v)
 int main()
 {
     fstream gr;//открыли файл
-    gr.open("/home/iryna/workspace/DFS/graph.txt");//прописать путь к файлу
+    gr.open("graph.txt");//прописать путь к файлу
     int v, e;
     gr >> v;//считали из файла количество вершин
     gr >> e;//и количество ребер
